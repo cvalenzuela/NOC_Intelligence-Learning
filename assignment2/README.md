@@ -6,7 +6,7 @@ This in an attempt to recreate the Genetic Algorithm [Evolving Shakespeare examp
 
 Issues
 ------
-A small image of 40x40 pixels has an array length of 6400 elements using a pixel density of 1. This current approach will never arrive to the solution (lesson learned the hard way!). The fittest gene got only to a 0.09% fitness rate. Large populations can increase the fitness but will slow down the whole process.
+A small image of 40x40 pixels has an array length of 6400 elements using a pixel density of 1. This current approach will never arrive to the solution (lesson learned the hard way!). The fittest gene got only to a 0.09% fitness rate. Large populations can increase the fitness but will slow down the whole process. A couple of works around can be to use simpler black/white images or to create much more smaller images.
 
 A better approach would be to consider [Simulated annealing](https://en.wikipedia.org/wiki/Simulated_annealing) technique
 to simplify the size of the array to match. By overlapping polygons of various colors and transparencies insted of using all the pixels. This types of techniques to solve a similar problem can be found [here](http://alteredqualia.com/visualization/evolve/) and [here](https://rogerjohansson.blog/2008/12/07/genetic-programming-evolution-of-mona-lisa/). Although to get a good results using this approach it can take [(as describe here)](http://alteredqualia.com/visualization/evolve/):
