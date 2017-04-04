@@ -1,3 +1,5 @@
+// DNA sequence
+
 function DNA(num) {
 
   // The genetic sequence.

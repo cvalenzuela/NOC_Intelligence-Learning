@@ -1,3 +1,5 @@
+// Population to store DNA
+
 function Population(p, m, num) {
 
   this.population = [];              // Array to hold the current population

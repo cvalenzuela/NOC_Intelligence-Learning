@@ -1,3 +1,5 @@
+// genetic Algorithm to match a pixels in an image
+
 var target;
 var popmax;
 var mutationRate;
@@ -17,17 +19,17 @@ function setup() {
   createCanvas(800, 800);
   pixelDensity(1);
 
-  // bestPhrase = createP("Best phrase:");
-  // //bestPhrase.position(10,10);
-  // bestPhrase.class("best");
-  //
-  // allPhrases = createP("All phrases:");
-  // allPhrases.position(600,10);
-  // allPhrases.class("all");
-  //
-  // stats = createP("Stats");
-  // //stats.position(10,200);
-  // stats.class("stats");
+  bestPhrase = createP("Best phrase:");
+  //bestPhrase.position(10,10);
+  bestPhrase.class("best");
+
+  allPhrases = createP("All phrases:");
+  allPhrases.position(600,10);
+  allPhrases.class("all");
+
+  stats = createP("Stats");
+  //stats.position(10,200);
+  stats.class("stats");
 
   // Image
   imageMode(CENTER);
@@ -44,22 +46,21 @@ function setup() {
 }
 
 function draw() {
-  // // // 1) Create a mating pool
-  // population.naturalSelection();
-  // // // // 2) Create the next generation
-  // population.generate();
-  // // // // 3) Calculate the fitness
-  // population.calcFitness();
-  // // // // 4) Check if a object matches the expression
-  // population.evaluate();
-  // // //
-  // // // If we found the target phrase, stop
-  // if (population.isFinished()) {
-  //    //println(millis()/1000.0);
-  //     console.log("finish");
-  //     noLoop();
-  // }
-  // //console.log(nf(population.getAverageFitness()))
+  // 1) Create a mating pool
+  population.naturalSelection();
+  // 2) Create the next generation
+  population.generate();
+  // 3) Calculate the fitness
+  population.calcFitness();
+  // 4) Check if a object matches the expression
+  population.evaluate();
+  // If we found the target phrase, stop
+  if (population.isFinished()) {
+     //println(millis()/1000.0);
+      console.log("finish");
+      noLoop();
+  }
+  //console.log(nf(population.getAverageFitness()))
    loadPixels();
   for (var y = 0; y < height; y++){
     for (var x = 0; x < width; x++){
