@@ -6,6 +6,9 @@ Using a KNN algorithm this page tells you based on where you click on the screen
 
 It uses an Euclidean distance to get the distance from the current mouse position to all the points in the dataset.
 
+![screenshot](./assets/icons/heatmap2.png)
+Blue are galleries, yellow wifi.
+
 I'm using part of the [NOC KNN p5js demo](https://github.com/shiffman/NOC-S17-2-Intelligence-Learning/tree/master/week3-classification-regression/04_kNN_demo_p5).
 
 Demo
