@@ -1,0 +1,70 @@
+/*
+Fonts
+*/
+@font-face {
+    font-family: 'benton';
+    src: url('../fonts/bentonsans-light-webfont.woff');
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'benton-bold';
+    src: url('../fonts/bentonsans-medium-webfont.woff');
+    font-weight: normal;
+}
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+html,
+#mapa {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    cursor: help;
+}
+
+#instructions{
+  position: absolute;
+  right: 0px;
+  margin: 10px;
+  z-index: 10;
+  background: white;
+  padding: 0 20px 20px;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  width: 150px;
+  text-align: right;
+}
+
+#result{
+  position: absolute;
+  right: 0px;
+  top: 220px;
+  margin: 10px;
+  z-index: 11;
+  background: white;
+  padding: 0 20px 20px;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  width: 150px;
+  text-align: right;
+}
+
+h1{
+  font-family: 'benton', 'Helvetica', sans-serif;
+}
+
+span{
+  font-family: 'benton-bold', 'Helvetica', sans-serif;
+}
+
+h4{
+  font-family: 'benton', 'Helvetica', sans-serif;
+}

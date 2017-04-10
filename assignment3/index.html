@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+  <style>
+  </style>
+  <title> Should I connect to wifi or go to a gallery? </title>
+  <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+  <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet'>
+  <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+  <script src="assets/libraries/leaflet.ajax.min.js"></script>
+  <link href='assets/css/style.css' rel="stylesheet">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <script language="javascript" type="text/javascript" src="assets/libraries/p5.js"></script>
+  <script language="javascript" src="assets/libraries/p5.dom.js"></script>
+</head>
+
+<body>
+  <div id="instructions">
+    <h1>Should I connect to <span>wifi</span> or go to a <span>gallery</span>?</h1>
+    <h2><i class="em em-iphone"></i> <i class="em em-art"></i></h2>
+  </div>
+  <div id="result">
+    <h2 id="emoji"></h2>
+    <h4 id="resultText">Click anywhere in the map</h4>
+  </div>
+  <div id="mapa"></div>
+  <script src="assets/js/knn.js"></script>
+  <script src="assets/js/map.js"></script>
+
+</body>
+
+</html>
