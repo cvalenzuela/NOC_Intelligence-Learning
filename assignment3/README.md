@@ -10,7 +10,7 @@ I'm using part of the [NOC KNN demo](https://github.com/shiffman/NOC-S17-2-Intel
 
 Demo
 ------
-[demo](https://cvalenzuela.github.io/NOC_Intelligence-Learning/tree/assignment3/index.html))
+[demo](https://cvalenzuela.github.io/NOC_Intelligence-Learning/tree/assignment3/index.html)
 
 Data
 ------
