@@ -1,6 +1,6 @@
 # Should I connect to wifi or go to a gallery?
 
-![screenshot](./assets/icons/screenshot.png)
+![screenshot](./assets/icons/home.png)
 
 Using a KNN algorithm this page tells you based on where you click on the screen, if you should go see an art gallery or connect to wifi. To do so, it searches for the K1 nearest neighbor of the position you selected and returns either a NYC art gallery or a wifi hotspot.
 
