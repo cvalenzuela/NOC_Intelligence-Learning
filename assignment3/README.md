@@ -2,7 +2,7 @@
 
 ![screenshot](./assets/icons/screenshot.png)
 
-Using a KNN algorithm this page tells based on where you click on the screen, if you should go see an art gallery or connect to wifi. To do so, it searches for the K1 nearest neighbor between NYC art galleries and wifi hotspots.
+Using a KNN algorithm this page tells you based on where you click on the screen, if you should go see an art gallery or connect to wifi. To do so, it searches for the K1 nearest neighbor of the position you selected and returns either a NYC art gallery or a wifi hotspot.
 
 It uses an Euclidean distance to get the distance from the current mouse position to all the points in the dataset.
 
