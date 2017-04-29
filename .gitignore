@@ -50,3 +50,6 @@ node_modules
 
 # res
 /*/*/resources/signing
+
+#im2txt
+final/im2txt/trained
