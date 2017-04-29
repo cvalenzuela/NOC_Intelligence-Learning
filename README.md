@@ -4,4 +4,4 @@ This repo contains assignments for the class [Nature of Code: "Intelligence and 
 - [Assignment 1: BFS with Wikipedia articles and words/terms](/assignment1)
 - [Assignment 2: Genetic Algorithms: Evolving Shakespeare with pixels](/assignment2)
 - [Assignment 3:  Should I connect to wifi or go to a gallery?](/assignment3)
-- [Final:  NN Plots](/final)
+- [Final:  Sequential Stories](/final)
